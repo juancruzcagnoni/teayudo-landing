@@ -6,7 +6,7 @@ import "./brand.css";
 // Component
 const Brand = () => {
   return (
-    <div className="gpt3__brand section__padding" data-aos="fade-up">
+    <div className="gpt3__brand" data-aos="fade-up">
       <div className="brand-item">
         <img className="brand-image" src={megafono} alt="google" />
         <div className="text-container">

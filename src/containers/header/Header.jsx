@@ -7,11 +7,12 @@ import home from "../../assets/home.png";
 // Component
 const Header = () => {
   return (
-    <div className="gpt3__header section__padding" id="home">
+    <div className="gpt3__header" id="home">
       <div className="gpt3__header-content" data-aos="fade-right">
         <h1>
-          <span className="negrita">TEA</span>YUDO, apoyo para niños con Trastornos en Espectro
-          Autista.
+          <span className="teayudo">
+            <span className="negrita">TEA</span>YUDO
+          </span>, apoyo para niños con autismo.
         </h1>
         <p>
           Descubrí el apoyo comprensivo y personalizado de <span className="negrita">TEA</span>YUDO, diseñado
@@ -20,7 +21,7 @@ const Header = () => {
         </p>
         <div className="gpt3__header-button" data-aos="fade-up">
           <button type="button">
-            <a href="https://teayudo.vercel.app/">Ir a la app</a>
+            <a href="https://teayudo.vercel.app/" target="_blank">Ir a la app</a>
           </button>
         </div>
       </div>

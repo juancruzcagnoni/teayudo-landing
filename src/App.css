@@ -34,7 +34,7 @@ a {
 
 /* Margin and padding sections  */
 .section__padding {
-  padding: 2rem 6rem;
+  padding: 4rem 6rem;
 }
 
 .section__margin {
@@ -45,7 +45,7 @@ a {
 .scale-up-center {
   -webkit-animation: scale-up-center 0.4s cubic-bezier(0.39, 0.575, 0.565, 1)
     both;
-  animation: scale-up-center 0.4s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+  animation: scale-up-center 0.2s cubic-bezier(0.39, 0.575, 0.565, 1) both;
 }
 
 @-webkit-keyframes scale-up-center {

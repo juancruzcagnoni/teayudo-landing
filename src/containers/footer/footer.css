@@ -3,7 +3,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: var(--color-title);
+  background: var(--color-bg);
 }
 
 .gpt3__footer-heading {
@@ -40,7 +40,7 @@
   text-align: center;
   letter-spacing: -0.04em;
   word-spacing: 2px;
-  color: #fff;
+  color: var(--color-title);
 }
 
 .gpt3__footer-links {
@@ -65,20 +65,19 @@
 
 .gpt3__footer-links_logo img {
   width: 118px;
-  height: 30px;
   margin-bottom: 1rem;
 }
 
 .gpt3__footer-links_logo p {
   font-family: var(--font-family);
-  font-size: 0.8rem;
-  line-height: 14px;
-  color: var(--color-bg);
+  font-size: 1rem;
+  color: var(--color-title);
 }
 
 .gpt3__footer-links_div {
   display: flex;
-  justify-content: flex-start;
+  justify-content: flex-end;
+  align-items: end;
   flex-direction: column;
 }
 
@@ -86,21 +85,31 @@
   font-family: var(--font-family);
   font-size: 0.9rem;
   line-height: 16px;
-  color: var(--color-bg);
+  color: var(--color-title);
   margin-bottom: 1rem;
+}
+
+.footer-center {
+  text-align: center;
+}
+
+.footer-center p {
+  font-family: var(--font-family);
+  font-size: 0.9rem;
+  color: var(--color-title);
 }
 
 .gpt3__footer-links_div p {
   font-family: var(--font-family);
   font-size: 0.8rem;
   line-height: 14px;
-  color: var(--color-bg);
+  color: var(--color-title);
   margin: 0.5rem 0;
   cursor: pointer;
 }
 
 .gpt3__footer-copyright {
-  margin-top: 4rem;
+  margin-top: 1rem;
   text-align: center;
   width: 100%;
 }
@@ -109,13 +118,27 @@
   font-family: var(--font-family);
   font-size: 0.8rem;
   line-height: 14px;
-  color: #fff;
+  color: var(--color-title);
 }
 
 @media screen and (max-width: 850px) {
   .gpt3__footer-heading h1 {
     font-size: 2.4rem;
     line-height: 50px;
+  }
+
+  .gpt3__footer-links_logo{
+    align-items: center;
+  }
+
+  .gpt3__footer-links_div{
+    align-items: center;
+  }
+
+  .gpt3__footer-links{
+    align-items: center;
+    flex-wrap: no-wrap;
+    flex-direction: column;
   }
 }
 
@@ -133,6 +156,7 @@
     font-size: 0.9rem;
     line-height: 20px;
   }
+
 }
 
 @media screen and (max-width: 550px) {
