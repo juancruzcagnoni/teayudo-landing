@@ -76,6 +76,27 @@
   border-bottom-right-radius: 5px;
 }
 
+/* Button */
+.gpt3__header-button {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.gpt3__header-button button {
+  padding: 0.5rem 1rem;
+  color: var(--color-title);
+  background: #f5b60f;
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 25px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
 /* Image */
 .gpt3__header-image {
   flex: 1;
@@ -136,7 +157,7 @@
   .gpt3__header-content p {
     font-size: 1rem;
     line-height: 24px;
-    margin-bottom: 0;
+    margin-bottom: 1.2rem;
   }
 
   .gpt3__header-content__input input,

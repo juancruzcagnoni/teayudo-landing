@@ -18,7 +18,7 @@ const Header = () => {
           para guiar a niños con Trastornos en Espectro Autista en su viaje
           hacia el desarrollo.
         </p>
-        <div className="gpt3__navbar-sign" data-aos="fade-up">
+        <div className="gpt3__header-button" data-aos="fade-up">
           <button type="button">
             <a href="https://teayudo.vercel.app/">Ir a la app</a>
           </button>
