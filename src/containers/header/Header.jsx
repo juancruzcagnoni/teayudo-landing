@@ -25,7 +25,7 @@ const Header = () => {
           </button>
         </div>
       </div>
-      <div className="gpt3__header-image" data-aos="fade-left">
+      <div className="gpt3__header-image"  data-aos="fade-up">
         <img src={home} alt="home" />
       </div>
     </div>

@@ -2,7 +2,7 @@ import React from 'react';
 import './feature.css';
 
 const Feature = ({ title, text }) => (
-  <div className="gpt3__features-container__feature" data-aos="fade-left">
+  <div className="gpt3__features-container__feature" data-aos="fade-up"  >
     <div className="gpt3__features-container__feature-title">
       <div />
       <h1>{title}</h1>
