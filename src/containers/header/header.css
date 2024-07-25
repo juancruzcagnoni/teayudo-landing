@@ -184,15 +184,20 @@
 
   .header-button {
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
     margin-top: 1rem;
+    width: 100%;
+  }
+
+  .header-button button{
+    width: 100%;
   }
 
   .header-people {
-    margin-top: 1rem;
+    margin-top: 1.5rem;
     margin-left: 0;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
   }
 
   .header-content h1 {
