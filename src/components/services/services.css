@@ -1,4 +1,4 @@
-.gpt3__brand {
+.services {
   display: flex;
   justify-content: space-between;
   width: 80%;
@@ -9,12 +9,12 @@
   padding: 2.5rem 5rem;
 }
 
-.brand-item {
+.service-item {
   display: flex;
   align-items: center;
 }
 
-.brand-image {
+.service-image {
   width: 50px;
   margin-right: 20px;
 }
@@ -44,17 +44,17 @@
 }
 
 @media screen and (max-width: 550px) {
-  .gpt3__brand{
+  .services{
     flex-direction: column;
     margin: 2rem auto;
     padding: 2rem 2rem;
   }
 
-  .brand-item{
+  .service-item{
     margin: 1rem 0;
   }
 
-  .brand-item p{
+  .service-item p{
     font-size: 1rem;
   }
 

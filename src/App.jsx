@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 
 import { Footer, Testimonials, Features, Header } from "./containers";
-import { CTA, Brand, Navbar } from "./components";
+import { CTA, Services, Navbar } from "./components";
 import "./App.css";
 
 import "aos/dist/aos.css";
@@ -10,18 +10,18 @@ import AOS from "aos";
 const App = () => {
   useEffect(() => {
     AOS.init({
-      duration: 1000, // duración de la animación en milisegundos
-      once: true, // si se debe animar solo una vez
+      duration: 1000,
+      once: true, 
     });
   }, []);
 
   return (
     <div className="App">
-      <div className="gradient__bg">
+      <div>
         <Navbar />
         <Header />
       </div>
-      <Brand />
+      <Services />
       <Features />
       <Testimonials />
       <CTA />

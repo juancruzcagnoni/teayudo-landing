@@ -18,21 +18,21 @@ const featuresData = [
 ];
 
 const Features = () => (
-  <div className="gpt3__features section__padding" id="features">
-    <div className="gpt3__features-heading" data-aos="fade-right">
+  <div className="features section__padding" id="features">
+    <div className="features-heading" data-aos="fade-right">
       <h1>
         Explorá las potentes funcionalidades de{" "}
         <span className="negrita">TEA</span>YUDO.
       </h1>
-      <div className="gpt3__navbar-sign">
-        <button type="button">
+      <div className="button-style-container">
+        <button type="button" className="button-style">
           <a href="https://teayudo.vercel.app/" target="_blank">
             Ir a la app
           </a>
         </button>
       </div>
     </div>
-    <div className="gpt3__features-container">
+    <div className="features-container">
       {featuresData.map((item, index) => (
         <Feature title={item.title} text={item.text} key={item.title + index} />
       ))}

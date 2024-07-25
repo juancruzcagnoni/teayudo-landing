@@ -1,13 +1,13 @@
 import React from "react";
-import gpt3Logo from "../../assets/logo.svg";
+import logo from "../../assets/logo.svg";
 import "./footer.css";
 
 const Footer = () => {
   return (
-    <div className="gpt3__footer section__padding">
-      <div className="gpt3__footer-links">
-        <div className="gpt3__footer-links_logo">
-          <img src={gpt3Logo} alt="logo" />
+    <div className="footer section__padding">
+      <div className="footer-links">
+        <div className="footer-links_logo">
+          <img src={logo} alt="logo" />
         </div>
 
         <div className="footer-center">
@@ -17,7 +17,7 @@ const Footer = () => {
           </p>
         </div>
 
-        <div className="gpt3__footer-links_div">
+        <div className="footer-links_div">
           <h4>Enlaces</h4>
           <a href="#features">
             <p>Funcionalidades</p>
@@ -28,7 +28,7 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className="gpt3__footer-copyright">
+      <div className="footer-copyright">
         <p>
           © {new Date().getFullYear()} <span className="negrita">TEA</span>YUDO.
           Todos los derechos reservados.

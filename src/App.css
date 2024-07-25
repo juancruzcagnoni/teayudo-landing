@@ -14,22 +14,31 @@ body {
   font-weight: 800;
 }
 
+.button-style-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin: 1rem 0;
+}
+
+.button-style {
+  padding: 0.5rem 1rem;
+  color: var(--color-title);
+  background: #f5b60f;
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 25px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
 /* Links  */
 a {
   color: unset;
   text-decoration: none;
-}
-
-/* Gradients */
-/* .gradient__bg {
-  background: radial-gradient(circle at 3% 25%, #002853 0%, #040c18 100%);
-} */
-
-.gradient__text {
-  background: var(--gradient-text);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
 }
 
 /* Margin and padding sections  */

@@ -1,14 +1,13 @@
 // Imports
 import React from "react";
 import "./header.css";
-import ai from "../../assets/ai.png";
 import home from "../../assets/home.png";
 
 // Component
 const Header = () => {
   return (
-    <div className="gpt3__header" id="home">
-      <div className="gpt3__header-content" data-aos="fade-right">
+    <div className="header" id="home">
+      <div className="header-content" data-aos="fade-right">
         <h1>
           <span className="teayudo">
             <span className="negrita">TEA</span>YUDO
@@ -19,13 +18,13 @@ const Header = () => {
           para guiar a niños con Trastornos en Espectro Autista en su viaje
           hacia el desarrollo.
         </p>
-        <div className="gpt3__header-button" data-aos="fade-up">
+        <div className="header-button" data-aos="fade-up">
           <button type="button">
             <a href="https://teayudo.vercel.app/" target="_blank">Ir a la app</a>
           </button>
         </div>
       </div>
-      <div className="gpt3__header-image"  data-aos="fade-up">
+      <div className="header-image"  data-aos="fade-up">
         <img src={home} alt="home" />
       </div>
     </div>

@@ -10,12 +10,12 @@ const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
 
   return (
-    <div className="gpt3__navbar">
-      <div className="gpt3__navbar-links">
-        <div className="gpt3__navbar-links_logo">
+    <div className="navbar">
+      <div className="navbar-links">
+        <div className="navbar-links_logo">
           <img src={logo} alt="Logo" />
         </div>
-        <div className="gpt3__navbar-links_container">
+        <div className="navbar-links_container">
           <p>
             <a href="#home">Inicio</a>
           </p>
@@ -27,14 +27,14 @@ const Navbar = () => {
           </p>
         </div>
       </div>
-      <div className="gpt3__navbar-sign">
+      <div className="navbar-sign">
         <button type="button">
           <a href="https://teayudo.vercel.app/" target="_blank">
             Ir a la app
           </a>
         </button>
       </div>
-      <div className="gpt3__navbar-menu">
+      <div className="navbar-menu">
         {toggleMenu ? (
           <RiCloseLine
             color="#912C8C"
@@ -49,8 +49,8 @@ const Navbar = () => {
           />
         )}
         {toggleMenu && (
-          <div className="gpt3__navbar-menu_container scale-up-center">
-            <div className="gpt3__navbar-menu_container-links">
+          <div className="navbar-menu_container scale-up-center">
+            <div className="navbar-menu_container-links">
               <p>
                 <a href="#home">Inicio</a>
               </p>
@@ -61,7 +61,7 @@ const Navbar = () => {
                 <a href="#testimonials">Testimonios</a>
               </p>
             </div>
-            <div className="gpt3__navbar-menu_container-links-sign">
+            <div className="navbar-menu_container-links-sign">
               <button type="button">
                 <a href="https://teayudo.vercel.app/" target="_blank">
                   Ir a la app
