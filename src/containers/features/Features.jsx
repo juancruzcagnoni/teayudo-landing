@@ -20,7 +20,7 @@ const featuresData = [
 
 const Features = () => (
   <div className="gpt3__features section__padding" id="features">
-    <div className="gpt3__features-heading">
+    <div className="gpt3__features-heading" data-aos="fade-right">
       <h1>
         Explora las potentes funcionalidades de <span className="negrita">TEA</span>YUDO.
       </h1>

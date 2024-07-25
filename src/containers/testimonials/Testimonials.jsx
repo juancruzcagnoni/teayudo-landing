@@ -40,14 +40,14 @@ const testimonials = [
 const Testimonials = () => {
   return (
     <section className="testimonials-section section__padding" id='testimonials'>
-      <div className="testimonials-header">
+      <div className="testimonials-header" data-aos="fade-up">
         <span>TESTIMONIOS</span>
         <h2>Mas de 100 personas ya confian en nosotros  </h2>
         <p>¡Lee lo que nuestros clientes tienen que decir!</p>
       </div>
       <div className="testimonials-cards">
         {testimonials.map((testimonial, index) => (
-          <div key={index} className="testimonial-card">
+          <div key={index} className="testimonial-card" data-aos="fade-up">
             <p className='tesimonial'>{testimonial.text}</p>
             <div className="testimonial-author">
               {/* <img src={testimonialImages[index]} alt={`Testimonio de ${testimonial.name}`} /> */}

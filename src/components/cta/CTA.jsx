@@ -3,7 +3,7 @@ import './cta.css'
 
 const CTA = () => {
   return (
-    <div className='gpt3__cta'>
+    <div className='gpt3__cta' data-aos="fade-up">
       <div className="gpt3__cta-content">
         <p>Descargá <span className='negrita'>TEA</span>YUDO y abrí la puerta a un futuro lleno de posibilidades.</p>
         <h3>¡Juntos podemos hacer la diferencia!</h3>
