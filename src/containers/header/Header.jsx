@@ -1,7 +1,7 @@
 // Imports
 import React from "react";
 import "./header.css";
-import home from "../../assets/home.png";
+import home from "../../assets/phones.png";
 
 // Component
 const Header = () => {
