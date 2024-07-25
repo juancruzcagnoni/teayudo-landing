@@ -114,6 +114,18 @@
   border-radius: 5px;
 }
 
+.header-people {
+  display: flex;
+  align-items: center;
+  margin-left: 2rem;
+}
+
+.header-people p {
+  font-size: 0.8rem;
+  margin: 0;
+  margin-left: 0.5rem;
+}
+
 /* Image */
 .header-image {
   flex: 1;
@@ -166,8 +178,21 @@
 }
 
 @media screen and (max-width: 550px) {
-  .header{
+  .header {
     padding: 2rem 2rem;
+  }
+
+  .header-button {
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 1rem;
+  }
+
+  .header-people {
+    margin-top: 1rem;
+    margin-left: 0;
+    flex-direction: column;
+    align-items: flex-start;
   }
 
   .header-content h1 {

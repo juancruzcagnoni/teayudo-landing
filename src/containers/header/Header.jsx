@@ -2,6 +2,7 @@
 import React from "react";
 import "./header.css";
 import home from "../../assets/phones.png";
+import people from "../../assets/people.png"
 
 // Component
 const Header = () => {
@@ -22,6 +23,10 @@ const Header = () => {
           <button type="button">
             <a href="https://teayudo.vercel.app/" target="_blank">Ir a la app</a>
           </button>
+          <div className="header-people">
+            <img src={people} alt="people" />
+            <p>+999 personas usaron <span className="negrita">TEA</span>YUDO</p>
+          </div>
         </div>
       </div>
       <div className="header-image"  data-aos="fade-up">
