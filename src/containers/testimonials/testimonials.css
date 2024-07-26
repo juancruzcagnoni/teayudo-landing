@@ -48,7 +48,9 @@
   font-family: var(--font-family);
   font-size: 1rem;
   line-height: 25px;
-  color: var(--color-text);
+  color: var(--color-bg);
+  background-color: var(--color-title);
+  border-radius: 20px;
 }
 
 .testimonial-card p {
@@ -59,35 +61,39 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-top: 10px;
+  margin-top: 25px;
   font-size: 0.9rem;
 }
 
 .testimonial-author p {
-  color: var(--color-text);
+  color: var(--color-bg);
   font-weight: 500;
 }
 
 .testimonial-author img {
   width: 100px;
-  height: 100px;
-  margin-left: 10px; /* Ajuste de margen */
+  /* height: 100px; */
+  margin-left: 10px; 
 }
 
 @media screen and (max-width: 950px) {
   .testimonials-cards {
     flex-direction: column;
-    align-items: center; /* Alinea las tarjetas al centro */
+    align-items: center;
   }
 
   .testimonial-card {
-    width: 90%; /* Asegura que las tarjetas ocupen un ancho adecuado en pantallas más pequeñas */
+    width: 90%;
   }
 }
 
 @media screen and (max-width: 550px) {
   .testimonial-card {
     width: 100%; 
-    padding: 0;
+    /* padding: 0; */
+  }
+
+  .testimonial-author{
+    margin-top: 20px;
   }
 }

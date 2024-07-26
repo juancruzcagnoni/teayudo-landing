@@ -20,12 +20,12 @@ const testimonials = [
     stars: stars4
   },
   {
-    text: "¡Me encanta! Ha superado mis expectativas.",
+    text: "¡Me encanta! Superó todas mis expectativas.",
     name: "Ana Martínez",
     stars: stars4
   },
   {
-    text: "Lo mejor que he probado. Definitivamente volveré.",
+    text: "Lo mejor que probé en mi vida. Definitivamente llego para quedarse.",
     name: "Luisa Sánchez",
     stars: stars4
   },
@@ -42,8 +42,8 @@ const Testimonials = () => {
     <section className="testimonials-section section__padding" id='testimonials'>
       <div className="testimonials-header" data-aos="fade-up">
         <span>TESTIMONIOS</span>
-        <h2>Mas de 100 personas ya confian en nosotros  </h2>
-        <p>¡Lee lo que nuestros clientes tienen que decir!</p>
+        <h2>Mas de 100 personas ya confían en nosotros  </h2>
+        <p>¡Leé lo que nuestros clientes tienen para decir!</p>
       </div>
       <div className="testimonials-cards">
         {testimonials.map((testimonial, index) => (

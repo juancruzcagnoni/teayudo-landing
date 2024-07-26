@@ -25,7 +25,7 @@ const Header = () => {
           </button>
           <div className="header-people">
             <img src={people} alt="people" />
-            <p>+999 personas usaron <span className="negrita">TEA</span>YUDO</p>
+            <p>+100 personas usaron <span className="negrita">TEA</span>YUDO</p>
           </div>
         </div>
       </div>

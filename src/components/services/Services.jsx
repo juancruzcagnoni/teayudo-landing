@@ -10,7 +10,7 @@ const Services = () => {
       <div className="service-item">
         <img className="service-image" src={megafono} alt="botones" />
         <div className="text-container">
-          <h2>+50</h2>
+          <h2>+40</h2>
           <p className="service-text">Botones de sonidos</p>
         </div>
       </div>
