@@ -42,7 +42,7 @@ const Testimonials = () => {
     <section className="testimonials-section section__padding" id='testimonials'>
       <div className="testimonials-header" data-aos="fade-up">
         <span>TESTIMONIOS</span>
-        <h2>Mas de 100 personas ya confían en nosotros  </h2>
+        <h2>Más de 100 personas ya confían en nosotros  </h2>
         <p>¡Leé lo que nuestros clientes tienen para decir!</p>
       </div>
       <div className="testimonials-cards">
